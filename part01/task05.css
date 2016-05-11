@@ -1,0 +1,129 @@
+body{
+    font-size: 13px;
+    background-color: #DEDEDE;
+    margin: 0px;
+    padding: 0px;
+}
+body>div{
+    float: left;
+    height: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+body>div>img{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+nav{
+    background-color: #333333;
+    height: 80px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+nav ul li {
+    display: inline;
+    text-align: center;
+    color: #000;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #808080;
+}
+article {
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-right: 500px;
+    margin-top: 20px;
+    padding: 25px;
+    box-shadow: 3px 3px #808080;
+    min-width: 320px;
+}
+
+article figure{
+    display: inline-block;
+    border: 2px solid #cdcdcd;
+}
+figure figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
+figure img {
+    margin: 10px;
+}
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+.tablehead {
+    background-color: #333333;
+    color: #ffffff;
+}
+.tabletail {
+    background-color: #cccccc;
+    color: #000000;
+}
+
+aside {
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 25px;
+    box-shadow: 3px 3px #999999;
+    width: 420px;
+    float: right;
+}
+aside h1 {
+    border-left: 3px solid #cacaca;
+    padding: 10px 20px;
+}
+aside form {
+    font-size: 13px;
+    width: 100%;
+    vertical-align: text-top;
+    text-align: center;
+
+}
+aside form div {
+    margin: 10px;
+
+}
+aside form p {
+    color: #a0aeb9;
+
+}
+
+div  button {
+    background-color: #3355D0;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #000000;
+    height: 85px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+footer p {
+    color: #ffffff;
+    display: inline-block;
+    margin: 20px;
+}
