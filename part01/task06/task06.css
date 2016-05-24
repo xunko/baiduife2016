@@ -347,17 +347,62 @@ body {
 .b_r_t{
     width: 459px;
     height: 318px;
-    padding-top: 30px;
+    margin-top: 30px;
+    background-color: #eeedd6;
 }
 .b_r_t1{
     width: 459px;
     height: 157px;
 }
+.b_r_t1 ul{
+    list-style-image: url("images/_路径_ + _路径_ + _路径_.png");
+}
+.b_r_t1 li{
+    font-size: 16px;
+    color: #5a5b5b;
+    font-family: 宋体;
+    text-align: left;
+    line-height: 20px;
+    padding-top: 32px;
+    margin-left: 48px;
+}
+.b_r_t1 span {
+    font-size: 12px;
+    font-family: 宋体;
+    font-style: oblique;
+    text-align: right;
+    line-height: 20px;
+}
+
 .b_r_t2{
     width: 260px;
     height: 161px;
     float: left;
+    background-color: #d45d5c;
 }
+.b_r_box{
+    height: 86px;
+    border-left: 2px solid #ffffff;
+    color: #ffffff;
+}
+.zero{
+    font-size: 110px;
+    font-family: 微软雅黑;
+
+}
+.nums {
+    font-size: 21px;
+    font-family: 黑体;
+    line-height: 24px;
+    font-style: oblique;
+}
+.hello {
+    font-size: 12px;
+    font-family: 黑体;
+    line-height:6px;
+}
+
+
 .b_r_t3{
     width: 199px;
     height: 161px;
