@@ -292,7 +292,8 @@ body {
     line-height: 16px;
     text-indent: 2em;
 }
-.b_l_t .h{
+
+.b_l_t .h {
     clear: both;
     text-indent: 0em;
 }
@@ -305,17 +306,18 @@ body {
     font-family: 微软雅黑;
 }
 
-.b_r{
+.b_r {
     width: 459px;
     height: 647px;
     float: right;
 }
 
-.b_r_logo{
+.b_r_logo {
     position: relative;
     height: 257px;
 
 }
+
 .t {
     width: 458px;
     height: 61px;
@@ -326,6 +328,7 @@ body {
     opacity: 0.6;
 
 }
+
 .t p {
     color: #ffffff;
     font-size: 26px;
@@ -336,6 +339,7 @@ body {
     margin-top: 8px;
     text-indent: 0.5em;
 }
+
 .t span {
     color: #72b16a;
     font-size: 12px;
@@ -344,20 +348,24 @@ body {
     margin-left: 5px;
 }
 
-.b_r_t{
+.b_r_t {
     width: 459px;
     height: 318px;
     margin-top: 30px;
     background-color: #eeedd6;
+    position: relative;
 }
-.b_r_t1{
+
+.b_r_t1 {
     width: 459px;
     height: 157px;
 }
-.b_r_t1 ul{
+
+.b_r_t1 ul {
     list-style-image: url("images/_路径_ + _路径_ + _路径_.png");
 }
-.b_r_t1 li{
+
+.b_r_t1 li {
     font-size: 16px;
     color: #5a5b5b;
     font-family: 宋体;
@@ -366,6 +374,7 @@ body {
     padding-top: 32px;
     margin-left: 48px;
 }
+
 .b_r_t1 span {
     font-size: 12px;
     font-family: 宋体;
@@ -374,37 +383,90 @@ body {
     line-height: 20px;
 }
 
-.b_r_t2{
+.b_r_t2 {
     width: 260px;
     height: 161px;
     float: left;
     background-color: #d45d5c;
 }
-.b_r_box{
+
+.b_r_box {
     height: 86px;
-    border-left: 2px solid #ffffff;
     color: #ffffff;
 }
-.zero{
+
+.zero {
     font-size: 110px;
+    color: #ffffff;
     font-family: 微软雅黑;
+    border-right: 2px solid #ffffff;
+    height: 86px;
+    line-height: 86px;
+    margin: 37px 10px;
+    float: left;
 
 }
+
 .nums {
     font-size: 21px;
+    margin-top: 37px;
     font-family: 黑体;
     line-height: 24px;
     font-style: oblique;
 }
+
 .hello {
     font-size: 12px;
     font-family: 黑体;
-    line-height:6px;
+    line-height: 10px;
 }
 
-
-.b_r_t3{
+.b_r_t3 {
     width: 199px;
     height: 161px;
     float: right;
+    font-size: 12px;
+    color: #5a5b5b;
+    font-family: 黑体;
+    font-style: oblique;
+    line-height: 16px;
+    text-indent: 3em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+}
+
+.b_r_t3 span {
+    font-size: 72px;
+    color: #d45d5c;
+    font-family: 黑体;
+    line-height: 30px;
+}
+
+.b_r_t3l {
+    position: absolute;
+    bottom: 120px;
+    right: 150px;
+
+}
+
+.b_r_t3r {
+    position: absolute;
+    bottom: 45px;
+    right: 0px;
+    font-style: normal;
+
+}
+footer{
+    clear: both;
+    margin: 0 auto;
+    width: 892px;
+    height: 59px;
+    border-top: 1px solid #938e8c;
+}
+footer p{
+    float: right;
+    font: 12px "黑体";
+    color: #d45d5c;
 }
